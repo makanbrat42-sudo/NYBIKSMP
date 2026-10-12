@@ -4,8 +4,8 @@ import json
 import os
 
 # === НАСТРОЙКИ ===
-BOT_TOKEN = "ТВОЙ_ТОКЕН_ЗДЕСЬ"  # 8995974777:AAHdN9eoyQpGWLew47gmbxqNAOOZbCIMO9w
-ADMIN_CHAT_ID = 123456789  # 7925223188
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+ADMIN_CHAT_ID = int(os.environ.get("ADMIN_CHAT_ID"))
 
 bot = telebot.TeleBot(BOT_TOKEN)
 

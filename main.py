@@ -4,8 +4,8 @@ import json
 import os
 
 # === НАСТРОЙКИ ===
-BOT_TOKEN = "ТВОЙ_ТОКЕН_ЗДЕСЬ"  # Замени на токен от @BotFather
-ADMIN_CHAT_ID = 123456789  # Замени на свой Telegram ID (узнать у @userinfobot)
+BOT_TOKEN = "ТВОЙ_ТОКЕН_ЗДЕСЬ"  # 8995974777:AAHdN9eoyQpGWLew47gmbxqNAOOZbCIMO9w
+ADMIN_CHAT_ID = 123456789  # 7925223188
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
